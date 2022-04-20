@@ -1,0 +1,109 @@
+
+body {
+    height: 100vh;
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    min-width: 460px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 10%;
+    min-width: 460px;
+    border: 1px solid black;
+}
+
+.logo {
+    display: block;
+    height: 95%;
+}
+
+.options-list {
+    display: flex;
+    gap: 5%;
+    margin: 2% 5% 2% auto;
+}
+
+.option {
+    font-size: 15px;
+    color: black;
+}
+
+.content-wrapper {
+    flex: 1;
+    height: 100%;
+}
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    margin: 5% auto 5% auto;
+    width: 25%;
+    border: 1px solid black;
+    padding: 2%;
+    border-radius: 5px;
+    box-shadow: 5px 4px 4px 4px rgb(238, 235, 235);
+}
+
+.name {
+    font-size: 30px;
+    margin: 0 auto 0 auto;
+}
+
+.title {
+    font-size: 20px;
+    margin: 0 auto 0 auto;
+}
+
+.contact {
+    margin: 0 auto 0 auto;
+}
+
+.options-listb {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50%;
+    margin-top: 5%;
+}
+
+.graphic {
+    min-width: 20%;
+    min-height: 100%;
+    margin-right: 5%;
+}
+
+.illustration {
+    min-width: 20%;
+    min-height: 100%;
+}
+
+.options-listc {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50%;
+    margin-bottom: 5%;
+}
+
+.painting {
+    min-width: 20%;
+    min-height: 100%;
+}
+
+.carpentry {
+    min-width: 20%;
+    min-height: 100%;
+}
